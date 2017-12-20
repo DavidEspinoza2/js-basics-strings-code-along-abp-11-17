@@ -4,4 +4,4 @@ const name = "david";
 document.write("name: " + name[0]);
 const welcomeMessage = "Welcome to Flatbook, " + "!";
 const excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + "!";
-const shortGreeting = "Welcome, " + currentUser + "!";
+const shortGreeting = "Welcome, " + currentUser.slice(1) + "!";
